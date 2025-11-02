@@ -6,7 +6,7 @@ const formatNoteCount = (() => {
     });
     
     return (num) => formatter.format(num);
-});
+})();
 
 const initNoteCountFormatting = (options = {}) => {
     const {
